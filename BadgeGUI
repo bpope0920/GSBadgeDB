@@ -1,0 +1,34 @@
+/* Copyright (C) Brittney Pope - All Rights Reserved 
+* Unauthorized copying of this file, via any medium is strictly prohibited 
+* Proprietary and confidential * Written by Brittney Pope
+*/
+
+//Import Package(s)
+
+//Import Classes
+import java.util.*;
+import java.awt.*;
+import java.io.*;
+import javax.swing.*;
+
+//GUI
+public final class BadgeGUI extends JFrame{
+  //Declare Variables like buttons,checkbox etc 
+  private JButton addGirl; 
+  private JButton clearForm; 
+  private JButton cancel; 
+ 
+  //Declare and initialize screen panels 
+  private JPanel currentPanel; 
+  private JPanel newGirl; 
+  private JPanel newBadge;  
+ 
+  public static void main(String[] args){    
+  //Create GUI  
+  BadgeGUI GUI = new BadgeGUI(); 
+  }
+  
+  //GUI constructor public BadgeGUI(){
+  
+  }
+}
